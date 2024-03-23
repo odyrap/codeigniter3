@@ -27,4 +27,13 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('biodata');
 	}
+	
+	public function datadiri()
+	{
+		$this->load->view('datadiri');
+	}
+	public function vaksinasi()
+	{
+		$this->load->view('vaksinasi');
+	}
 }
